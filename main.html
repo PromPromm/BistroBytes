@@ -9,44 +9,51 @@
 <body>
     <header>
         <nav>
+            <h1 id="logo">BistroBytes</h1>
             <ul>
-                <li>Main</li>
-                <li>Starter</li>
-                <li>Desert</li>
-                <li>Drinks</li>
+                <li><a href="main.html">Main</a></li>
+                <li><a href="starter.html">Starter</a></li>
+                <li><a href="desert.html">Dessert</a></li>
+                <li><a href="drinks.html">Drinks</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <div>
-            <img src="images/main/mainMeal_2.jpg" alt="fettuccine Bolognese">
-            <img src="images/main/mainMeal_3.jpg" alt="Spaghetti with sea food">
-            <img src="images/main/mainMeal_1.jpg" alt="Penne Tomato Pasta">
-        </div>
-        <h1>Primi Piatti (Main Courses)</h1>
-        <div>
-            <h3>Fettuccine Bolognese</h3>
-            <p>Classic and comforting,
-            our wide fettuccine noodles are tossed with a rich and savory Bolognese sauce,
-            simmered with ground beef, vegetables, and aromatic herbs.</p>
-            <p>₦5000</p>
-        </div>
-        <hr>
-        <div>
-            <h3>Spaghetti ai Frutti di Mare</h3>
-            <p>Dive into the bounty of the sea with our seafood spaghetti.
-               Tender mussels and succulent shrimp mingle with sweet tomatoes,
-               fragrant parsley, and a touch of garlic in a vibrant tomato sauce.</p>
-               <p>₦4000</p>
+        <div class="grid-container">
+            <div id="image-container">
+                <img src="images/main/mainMeal_2.jpg" alt="fettuccine Bolognese">
+                <img src="images/main/mainMeal_3.jpg" alt="Spaghetti with sea food">
+                <img src="images/main/mainMeal_1.jpg" alt="Penne Tomato Pasta">
+            </div>
+            <div id="meal-desc">
+                <div id="menu">
+                    <h1>Primi Piatti (Main)</h1>
+                </div>
+            <div>
+                <h3>Fettuccine Bolognese</h3>
+                <p>Classic and comforting,
+                our wide fettuccine noodles are tossed with a rich and savory Bolognese sauce,
+                simmered with ground beef, vegetables, and aromatic herbs.</p>
+                <p class="price">₦5000</p>
             </div>
             <hr>
-        <div>
-            <h3>Penne Arrabbiata con Pollo</h3>
-            <p>A fiery delight, our penne pasta is bathed in a spicy tomato sauce bursting with fresh chilies.
-            Diced chicken and chopped tomatoes add a touch of heartiness to this vibrant dish.</p>
-            <p>₦6500</p>
-                
-    </div>
+            <div>
+                <h3>Spaghetti ai Frutti di Mare</h3>
+                <p>Dive into the bounty of the sea with our seafood spaghetti.
+                   Tender mussels and succulent shrimp mingle with sweet tomatoes,
+                   fragrant parsley, and a touch of garlic in a vibrant tomato sauce.</p>
+                   <p class="price">₦4000</p>
+                </div>
+                <hr>
+            <div>
+                <h3>Penne Arrabbiata con Pollo</h3>
+                <p>A fiery delight, our penne pasta is bathed in a spicy tomato sauce bursting with fresh chilies.
+                Diced chicken and chopped tomatoes add a touch of heartiness to this vibrant dish.</p>
+                <p class="price">₦6500</p>
+                    
+        </div>
+            </div>
+        </div>
     </main>
 
 </body>
